@@ -1,8 +1,12 @@
 # Shinefetch
 
 <div align="center">
-  <img src="imgs/normal.png" alt="Shinefetch Normal Preview" width="45%" height="auto">
-  <img src="imgs/shiny.png" alt="Shinefetch Shiny Preview" width="45.3%" height="auto">
+  <img src="imgs/Froakie.png" alt="Shinefetch Normal Preview" width="45%" height="auto">
+  <img src="imgs/Shiny-Leafeon.png" alt="Shinefetch Shiny Preview" width="45.3%" height="auto">
+</div>
+<div align="center">
+  <img src="imgs/Darmanitan.png" alt="Shinefetch Normal Preview" width="45%" height="auto">
+  <img src="imgs/Pichu.png" alt="Shinefetch Shiny Preview" width="45.3%" height="auto">
 </div>
 
 Shinefetch is an advanced Pokemon themed fetch tool. It uses fastfetch as a base to display system information alongside a random pokemon sprite, dynamically extracting UI colors directly from the Pokemon.
@@ -46,6 +50,8 @@ The installation script automatically detects your Linux distribution, installs 
 
 Settings are located in your ~/.config/shinefetch folder. Edit the configuration file to customize the application.
 
+settings.jsonc
+
 1. Adjust the chance of finding a shiny Pokemon (default is 1/100).
 2. Toggle interactive border animations.
 3. Switch border styles between rounded, sharp, double, and heavy.
@@ -53,3 +59,9 @@ Settings are located in your ~/.config/shinefetch folder. Edit the configuration
 5. Adjust the gap between the sprite and the system information box.
 6. Change the alignment of the Pokedex information box.
 7. Print and exit mode for static configuration in bashrc.
+
+fastfetch.jsonc
+
+1. Adjust the modules displayed.
+2. Change the keys displayed.
+3. Change the separator displayed.
