@@ -1,0 +1,13 @@
+# Binaries
+shinefetch
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Local configs/stats
+stats.json
+
+# OS files
+.DS_Store
+Thumbs.db

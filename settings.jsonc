@@ -1,0 +1,20 @@
+{
+    // Shinefetch Configuration - Customize behavior and styles
+    // 1 in X chance for a shiny Pokémon encounter
+    "shiny_chance": 100,
+    // Border style: rounded, sharp, double, heavy
+    "box_style": "rounded",
+    // Space between the Pokémon sprite and the stats box
+    "gap": 8,
+    // Enable animation for the border when a shiny Pokémon is encountered
+    "animation": true,
+    // Override your system username (leave empty to use default)
+    "trainer_name": "",
+    // Alignment of the Pokédex: 'center' or 'left'
+    "align": "center",
+    // Border style for shiny Pokémon (default: double)
+    "shiny_box_style": "double",
+    // If true, prints the stats once and exits. Good for static shell integration.
+    // Note that if you set this to true, the animation will not be shown and active centering will not work.
+    "print_and_exit": false
+}
