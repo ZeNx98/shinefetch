@@ -1,8 +1,6 @@
 package main
 
 // Shinefetch 󰄳
-// A high-end, animated Pokémon-themed fetch tool.
-
 import (
 	"encoding/json"
 	"fmt"
@@ -663,7 +661,7 @@ func main() {
 
 	// Pre-pad with maxH newlines and move back up to "reserve" space.
 	// This prevents "climbing" duplicates when at the bottom of the terminal.
-	boxLinesTmp := buildBox(0, []string{"0;0;0"}) // Just for height
+	boxLinesTmp := buildBox(0, []string{"0;0;0"}) 
 	maxHTmp := max(len(pokeLines), len(boxLinesTmp))
 
 	vPadTmp := 0
@@ -679,8 +677,8 @@ func main() {
 	for i := 0; i < vPadTmp+maxHTmp; i++ {
 		tty.WriteString("\n")
 	}
-	tty.WriteString(fmt.Sprintf("\x1b[%dA", vPadTmp+maxHTmp)) // Move back up
-	tty.WriteString("\x1b[s")                                 // Save cursor at the TOP of our reserved area
+	tty.WriteString(fmt.Sprintf("\x1b[%dA", vPadTmp+maxHTmp)) 
+	tty.WriteString("\x1b[s")                                 
 
 	defer tty.WriteString("\x1b[?25h")
 
